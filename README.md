@@ -10,11 +10,11 @@ Half Circle Slider to select a color.
 
  - On your storyboard add a UIView :
 
-![halfcircleslider_demo](https://cloud.githubusercontent.com/assets/5372802/13815666/c9c770ae-eb8b-11e5-8ca4-e8e9eda4efa9.png =333x)
+![halfcircleslider_demo](https://cloud.githubusercontent.com/assets/5372802/13816066/363e2a10-eb8d-11e5-8421-688b6fad78c6.png)
 
  - Select in the utilities panel :  Custom Class : HalfCircleSlider
 
-![halfcircleslider_demo](https://cloud.githubusercontent.com/assets/5372802/13815667/ca05d524-eb8b-11e5-8443-7d7d140dc9c0.png =262x)
+![halfcircleslider_demo](https://cloud.githubusercontent.com/assets/5372802/13816067/377b8972-eb8d-11e5-8753-c12bb223ef5f.png)
 
 ### Retrieve selected color
 
