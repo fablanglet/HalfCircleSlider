@@ -8,11 +8,11 @@ Half Circle Slider to select a color.
 
 - Just drag & drop the HalfCircleSlider.swift to your project.
 
- - On your storyboard add a UIView :
+- On your storyboard add a UIView :
 
 ![halfcircleslider_demo](https://cloud.githubusercontent.com/assets/5372802/13816066/363e2a10-eb8d-11e5-8421-688b6fad78c6.png)
 
- - Select in the utilities panel :  Custom Class : HalfCircleSlider
+- Select in the utilities panel :  Custom Class : HalfCircleSlider
 
 ![halfcircleslider_demo](https://cloud.githubusercontent.com/assets/5372802/13816067/377b8972-eb8d-11e5-8753-c12bb223ef5f.png)
 
