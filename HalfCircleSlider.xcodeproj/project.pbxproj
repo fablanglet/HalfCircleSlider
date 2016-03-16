@@ -13,8 +13,18 @@
 		0F0C49501C8D964A00891F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F0C494F1C8D964A00891F99 /* Assets.xcassets */; };
 		0F0C49531C8D964A00891F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0C49511C8D964A00891F99 /* LaunchScreen.storyboard */; };
 		0F0C495C1C8D966200891F99 /* HalfCircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C495A1C8D966200891F99 /* HalfCircleSlider.swift */; };
-		0F0C495D1C8D966200891F99 /* HalfCircleSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C495B1C8D966200891F99 /* HalfCircleSliderView.swift */; };
+		0F0C49651C8DC00F00891F99 /* HalfCircleSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0C49641C8DC00F00891F99 /* HalfCircleSliderUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F0C49671C8DC00F00891F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F0C493D1C8D964A00891F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F0C49441C8D964A00891F99;
+			remoteInfo = HalfCircleSlider;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F0C49451C8D964A00891F99 /* HalfCircleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfCircleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,11 +35,20 @@
 		0F0C49521C8D964A00891F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F0C49541C8D964A00891F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F0C495A1C8D966200891F99 /* HalfCircleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfCircleSlider.swift; sourceTree = "<group>"; };
-		0F0C495B1C8D966200891F99 /* HalfCircleSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfCircleSliderView.swift; sourceTree = "<group>"; };
+		0F0C49621C8DC00F00891F99 /* HalfCircleSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalfCircleSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0C49641C8DC00F00891F99 /* HalfCircleSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleSliderUITests.swift; sourceTree = "<group>"; };
+		0F0C49661C8DC00F00891F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0F0C49421C8D964A00891F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0C495F1C8DC00F00891F99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				0F0C49471C8D964A00891F99 /* HalfCircleSlider */,
+				0F0C49631C8DC00F00891F99 /* HalfCircleSliderUITests */,
 				0F0C49461C8D964A00891F99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				0F0C49451C8D964A00891F99 /* HalfCircleSlider.app */,
+				0F0C49621C8DC00F00891F99 /* HalfCircleSliderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				0F0C495A1C8D966200891F99 /* HalfCircleSlider.swift */,
-				0F0C495B1C8D966200891F99 /* HalfCircleSliderView.swift */,
 				0F0C49481C8D964A00891F99 /* AppDelegate.swift */,
 				0F0C494A1C8D964A00891F99 /* ViewController.swift */,
 				0F0C494C1C8D964A00891F99 /* Main.storyboard */,
@@ -68,6 +88,15 @@
 				0F0C49541C8D964A00891F99 /* Info.plist */,
 			);
 			path = HalfCircleSlider;
+			sourceTree = "<group>";
+		};
+		0F0C49631C8DC00F00891F99 /* HalfCircleSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0C49641C8DC00F00891F99 /* HalfCircleSliderUITests.swift */,
+				0F0C49661C8DC00F00891F99 /* Info.plist */,
+			);
+			path = HalfCircleSliderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +119,24 @@
 			productReference = 0F0C49451C8D964A00891F99 /* HalfCircleSlider.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0F0C49611C8DC00F00891F99 /* HalfCircleSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0C496B1C8DC00F00891F99 /* Build configuration list for PBXNativeTarget "HalfCircleSliderUITests" */;
+			buildPhases = (
+				0F0C495E1C8DC00F00891F99 /* Sources */,
+				0F0C495F1C8DC00F00891F99 /* Frameworks */,
+				0F0C49601C8DC00F00891F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F0C49681C8DC00F00891F99 /* PBXTargetDependency */,
+			);
+			name = HalfCircleSliderUITests;
+			productName = HalfCircleSliderUITests;
+			productReference = 0F0C49621C8DC00F00891F99 /* HalfCircleSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +149,10 @@
 				TargetAttributes = {
 					0F0C49441C8D964A00891F99 = {
 						CreatedOnToolsVersion = 7.2.1;
+					};
+					0F0C49611C8DC00F00891F99 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0F0C49441C8D964A00891F99;
 					};
 				};
 			};
@@ -119,6 +170,7 @@
 			projectRoot = "";
 			targets = (
 				0F0C49441C8D964A00891F99 /* HalfCircleSlider */,
+				0F0C49611C8DC00F00891F99 /* HalfCircleSliderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +186,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0F0C49601C8DC00F00891F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,14 +200,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F0C495D1C8D966200891F99 /* HalfCircleSliderView.swift in Sources */,
 				0F0C494B1C8D964A00891F99 /* ViewController.swift in Sources */,
 				0F0C495C1C8D966200891F99 /* HalfCircleSlider.swift in Sources */,
 				0F0C49491C8D964A00891F99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0F0C495E1C8DC00F00891F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0C49651C8DC00F00891F99 /* HalfCircleSliderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F0C49681C8DC00F00891F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F0C49441C8D964A00891F99 /* HalfCircleSlider */;
+			targetProxy = 0F0C49671C8DC00F00891F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0F0C494C1C8D964A00891F99 /* Main.storyboard */ = {
@@ -273,6 +347,30 @@
 			};
 			name = Release;
 		};
+		0F0C49691C8DC00F00891F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HalfCircleSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flanglet.HalfCircleSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HalfCircleSlider;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0F0C496A1C8DC00F00891F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HalfCircleSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flanglet.HalfCircleSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HalfCircleSlider;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -292,6 +390,16 @@
 				0F0C49591C8D964A00891F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0C496B1C8DC00F00891F99 /* Build configuration list for PBXNativeTarget "HalfCircleSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0C49691C8DC00F00891F99 /* Debug */,
+				0F0C496A1C8DC00F00891F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
