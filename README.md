@@ -17,7 +17,14 @@ Half Circle Slider to select a color.
 ![halfcircleslider_demo](https://cloud.githubusercontent.com/assets/5372802/13816067/377b8972-eb8d-11e5-8753-c12bb223ef5f.png)
 
 ### Retrieve selected color
+#### Delegate
+```swift
+protocol HalfCircleSliderDelegate {
+    func halfCircleSlider(halfCircleSlider: HalfCircleSlider, didChangedValue color: UIColor?)
+}
+```
 
+#### Implementation Example
 ```swift
 extension ViewController: HalfCircleSliderDelegate {
     func halfCircleSlider(halfCircleSlider: HalfCircleSlider, didChangedValue color: UIColor?) {
@@ -28,6 +35,15 @@ extension ViewController: HalfCircleSliderDelegate {
 ```
 
 ### Set Gradient Color Point
+
+#### Datasource
+```swift
+protocol HalfCircleSliderDataSource {
+    func halfCircleSlider(halfCircleSlider: HalfCircleSlider) -> [CGFloat]
+}
+```
+
+#### Implementation Example
 ```swift
 extension ViewController: HalfCircleSliderDataSource {
     func halfCircleSlider(halfCircleSlider: HalfCircleSlider) -> [CGFloat] {
